@@ -1,9 +1,28 @@
 vendor/
 node_modules/
+.idea/
+bootstrap/
+config/
+database/
+storage/
+tests/
+resources/assets/
+resources/lang/
 
 # Laravel 4 specific
 bootstrap/compiled.php
 app/storage/
+app/Console/
+app/Events/
+app/Exceptions/
+app/Http/MiddleWare/
+app/Http/Requests/
+app/Http/*.php
+app/Jobs/
+app/Listeners/
+app/Policies/
+app/Providers/
+app/*.php
 
 # Laravel 5 & Lumen specific
 bootstrap/cache/

@@ -1,0 +1,17 @@
+body  {
+		background-image: url("/pics/library.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+div.first {
+    opacity: 1;
+    filter: alpha(opacity=10); /* For IE8 and earlier */
+	     font-family: myFirstFont;
+	
+}
+@font-face {
+     font-family: myFirstFont;
+     src: url(sansation_light.woff);
+}
